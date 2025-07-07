@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getFunction } from './services/apiService';
+import UploadComponent from './components/UploadComponent';
 
 function App() {
 
@@ -31,7 +32,9 @@ function App() {
 
       <button onClick={btnGetFunctionClick}>GET FUNCTION</button>
 
+      <UploadComponent /> 
     </div>
+    
 
 
   );
